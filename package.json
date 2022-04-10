@@ -2,6 +2,7 @@
   "dependencies": {
     "@angular-devkit/build-angular": "~13.1.4",
     "@angular/animations": "~13.1.0",
+    "@angular/cli": "^13.3.2",
     "@angular/common": "~13.1.0",
     "@angular/compiler": "~13.1.0",
     "@angular/compiler-cli": "~13.1.0",
@@ -60,12 +61,15 @@
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
-    "watch":"ng build --watch --configuration development "
+    "watch": "ng build --watch --configuration development "
   },
   "author": "",
   "license": "ISC",
   "engines": {
     "node": "16.14.0",
     "npm": "8.3.1"
+  },
+  "Procfiley": {
+    "web": "node server.js"
   }
 }
