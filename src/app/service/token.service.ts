@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/internal/Observable';
 
 const TOKEN_KEY = 'AuthToken';
 const USERNAME_KEY = 'AuthUserName';
@@ -10,6 +11,7 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 export class TokenService {
 
   roles: Array<string> = [];
+    canActivate: Observable<any>;
 
   constructor() { }
 
